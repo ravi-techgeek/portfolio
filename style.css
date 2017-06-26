@@ -1,1 +1,8 @@
-body{font-size:14px;}
+/* Main CSS File*/
+body{
+  font-size:14px;
+  }
+
+section {
+  padding:100px 0px 100px 0px;
+}
