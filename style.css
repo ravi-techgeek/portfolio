@@ -1,6 +1,6 @@
 /* Main CSS File*/
 body{
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Droid Sans', sans-serif;
   font-size:14px;
   background-color:#fbfbfb;
   }
@@ -11,4 +11,25 @@ section {
 
 section h1{
   color:#ccc;
+  font-size: 50px;
 }
+
+ul,li{padding: 0px !important;}
+
+.header ul> li{
+    list-style: none;
+    font-size: 30px;
+    padding: 0px !important;
+    margin-right: 10px;
+    display: inline;
+}
+
+.header ul> li> a:hover{
+  color:#888;
+  -webkit-transition: color 0.2s ease-out;
+  -moz-transition: color 0.2s ease-out;
+  -o-transition: color 0.2s ease-out;
+  transition: color 0.2s ease-out;
+}
+
+.header a{color:#ccc;}
