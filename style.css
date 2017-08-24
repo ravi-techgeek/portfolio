@@ -16,6 +16,21 @@ section h1{
 
 ul,li{padding: 0px !important;}
 
+
+.header{
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url('images/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  text-rendering: optimizeLegibility;
+}
+
 .header ul> li{
     list-style: none;
     font-size: 30px;
@@ -25,7 +40,7 @@ ul,li{padding: 0px !important;}
 }
 
 .header ul> li> a:hover{
-  color:#888;
+  color:#fff;
   -webkit-transition: color 0.2s ease-out;
   -moz-transition: color 0.2s ease-out;
   -o-transition: color 0.2s ease-out;
@@ -33,3 +48,7 @@ ul,li{padding: 0px !important;}
 }
 
 .header a{color:#ccc;}
+
+.social-links{
+  margin-top: 50px;
+}
