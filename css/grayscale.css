@@ -1,3 +1,8 @@
+@font-face{
+  font-family: lato;
+  src: url(../fonts/Lato-Regular.woff);
+}
+
 #mainNav {
   min-height: 56px;
   background-color: #fff;
@@ -93,13 +98,8 @@
 }
 
 .masthead h1 {
-  font-family: 'Varela Round';
   font-size: 2.5rem;
-  line-height: 2.5rem;
-  letter-spacing: 0.8rem;
-  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  color:#ffffff;
 }
 
 .masthead h2 {
@@ -118,11 +118,6 @@
   .masthead {
     height: 100vh;
     padding: 0;
-  }
-  .masthead h1 {
-    font-size: 6.5rem;
-    line-height: 6.5rem;
-    letter-spacing: 0.8rem;
   }
   .masthead h2 {
     max-width: 30rem;
@@ -158,44 +153,89 @@
 }
 
 .about-section {
-  padding-top: 10rem;
-  background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
+  padding: 4rem;
 }
 
 .about-section p {
   margin-bottom: 5rem;
 }
 
-.projects-section {
+.blog-section {
   padding: 4rem 0;
 }
 
-.projects-section .featured-text {
+.blog-section .featured-text {
   padding: 2rem;
 }
 
 @media (min-width: 992px) {
-  .projects-section .featured-text {
+  .blog-section .featured-text {
     padding: 0 0 0 2rem;
     border-left: 0.5rem solid #64a19d;
   }
 }
 
-.projects-section .project-text {
+.blog-section .blog-text {
   padding: 3rem;
   font-size: 90%;
 }
 
 @media (min-width: 992px) {
-  .projects-section .project-text {
+  .blog-section .blog-text {
     padding: 5rem;
   }
-  .projects-section .project-text hr {
+  .blog-section .blog-text hr {
     border-color: #64a19d;
     border-width: .25rem;
     width: 30%;
   }
 }
+
+
+
+
+.services-section {
+  padding: 4rem 0;
+}
+
+.blog-section .featured-text {
+  padding: 2rem;
+}
+
+@media (min-width: 992px) {
+  .blog-section .featured-text {
+    padding: 0 0 0 2rem;
+    border-left: 0.5rem solid #64a19d;
+  }
+}
+
+.blog-section .blog-text {
+  padding: 3rem;
+  font-size: 90%;
+}
+
+@media (min-width: 992px) {
+  .blog-section .blog-text {
+    padding: 5rem;
+  }
+  .blog-section .blog-text hr {
+    border-color: #64a19d;
+    border-width: .25rem;
+    width: 30%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .signup-section {
   padding: 10rem 0;
@@ -261,10 +301,10 @@
   color: #fff;
 }
 
-body {
+/* body {
   font-family: 'Nunito';
   letter-spacing: 0.0625em;
-}
+} */
 
 a {
   color: #64a19d;
@@ -289,4 +329,45 @@ a:focus, a:hover {
 
 footer {
   padding: 5rem 0;
+}
+
+
+.icon-box {
+  height: 70px;
+  width: 70px;
+  margin-bottom: 15px;
+  border-radius: 10%;
+  padding: 20px;
+  background-color: #E6E6E6;
+}
+
+.icon-box span{
+  color:#707070;
+  font-size:30px;
+}
+
+.icon-background{
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+}
+
+
+
+.icon-stack-xl {
+  height: 5rem;
+  width: 5rem;
+  font-size: 1.75rem;
+}
+
+
+.icon-stack {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  height: 2.5rem;
+  width: 2.5rem;
+  font-size: 1rem;
+  background-color: #232323;
 }
