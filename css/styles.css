@@ -127,29 +127,25 @@
 
 .btn {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
-  padding: 1.25rem 2rem;
-  font-family: 'Varela Round';
-  font-size: 80%;
-  text-transform: uppercase;
-  letter-spacing: .15rem;
   border: 0;
+  border-radius: 0rem;
 }
 
 .btn-primary {
-  background-color: #64a19d;
+  background-color: #161616;
 }
 
 .btn-primary:hover {
-  background-color: #4f837f;
+  background-color: #161616;
 }
 
 .btn-primary:focus {
-  background-color: #4f837f;
+  background-color: #161616;
   color: white;
 }
 
 .btn-primary:active {
-  background-color: #467370 !important;
+  background-color: #161616 !important;
 }
 
 .about-section {
@@ -225,18 +221,6 @@
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 .signup-section {
   padding: 10rem 0;
   background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-signup.jpg");
@@ -307,12 +291,12 @@
 } */
 
 a {
-  color: #64a19d;
+  color: #161616;
 }
 
 a:focus, a:hover {
   text-decoration: none;
-  color: #3c6360;
+  color: #616161;
 }
 
 .bg-black {
@@ -370,4 +354,16 @@ footer {
   width: 2.5rem;
   font-size: 1rem;
   background-color: #232323;
+}
+
+#more {display: none;}
+
+.img-thumbnail {
+  padding:0 !important;
+  background-color: #fff !important;
+  border: none !important;
+  border-radius: .25rem !important;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
 }
