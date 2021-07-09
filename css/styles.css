@@ -93,7 +93,7 @@
   /* background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #000000 100%), url(../img/home-bg.jpg); */
   background-position: center;
   background-repeat: no-repeat;
-  background-color: #383d41;
+  background-color: #343a40;
   background-attachment: scroll;
   background-size: cover;
 }
@@ -297,7 +297,12 @@ a {
 
 a:focus, a:hover {
   text-decoration: none;
-  color: #616161;
+  color: #007bff;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
 }
 
 .bg-black {
@@ -389,5 +394,5 @@ ul.no-bullets {
 }
 
 a.wc-list{
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
