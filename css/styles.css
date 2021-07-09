@@ -380,3 +380,15 @@ p.section-heading{
   font-weight: 300;
   margin-bottom: 6rem !important;
 }
+
+
+ul.no-bullets {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a.wc-list{
+  font-size: 1.5rem;
+}
+a.wc-list:link{color:darkgreen}
