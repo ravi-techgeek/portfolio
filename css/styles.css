@@ -368,3 +368,15 @@ footer {
   height: auto;
   margin-bottom: 1rem;
 }
+
+
+p.section-heading{
+  font-size:2rem;
+  font-weight: 300;
+}
+
+.heading-style{
+  font-size: 3rem;
+  font-weight: 300;
+  margin-bottom: 6rem !important;
+}
